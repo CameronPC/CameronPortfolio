@@ -15,11 +15,13 @@
 		let i;
 		let slides = document.getElementsByClassName("mySlides");
 		let dots = document.getElementsByClassName("dot");
-		for (i = 0; i < slides.length; i++) {
+		console.log(slides.length);
+		for (i = 0; i < slides.length/2; i++) {
 			slides[i].style.display = "none";
 		}
+		console.log(slides.length);
 		slideIndex++;
-		if (slideIndex > slides.length) { slideIndex = 1 }
+		if (slideIndex > slides.length/2) { slideIndex = 1 }
 		for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		}
@@ -27,6 +29,3 @@
 		dots[slideIndex - 1].className += " active";
 		setTimeout(showSlides, 5000); // Change image every 5 seconds
 	}
-
-
-

@@ -30,6 +30,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+.SneyLogo{
+		width:25%;
+
+}
+
+.circle {
+	border: 3px white solid;
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+	background-color: white;
+  }
+
 body {
 	line-height: 1;
 }
