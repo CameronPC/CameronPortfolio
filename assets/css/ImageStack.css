@@ -25,7 +25,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  background-color: blue;
+
   max-width: 1000px; 
   display: inline-block;
   width: 100%;
@@ -139,7 +139,7 @@
 }
 
 .innerbox {
-  background-color: red;
+  background-color: rgb(95, 95, 95);
   width: 100%;
   max-width: 1000px;
   height: 650px;
